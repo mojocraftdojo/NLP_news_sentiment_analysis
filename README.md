@@ -7,7 +7,7 @@ This analysis aims at predicting sentiments from financial news headlines from t
 
 ## **Dataset**
 
-The dataset composed of 4846 pieces of news headlines that has been given three sentiment ratings, which are "Positive"", "Negative" and "Neutral", see below break down:
+The dataset is composed of 4846 pieces of news headlines that have been given three sentiment ratings, which are "Positive"", "Negative" and "Neutral", see below break down:
 
 ![news](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/news_samples.png "news")
 
