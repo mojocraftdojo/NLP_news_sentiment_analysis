@@ -13,7 +13,7 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 ![sentiment](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/multi-classes_stats.png "multi-classes")
 
-## **Methodologies for Modeling**
+## **Methodologies**
 
 ### **Natural Language Process (NLP): Text Preprocessing using TensorFlow/Keras**
 
@@ -30,6 +30,9 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 ###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. 
 #### In this analysis, I either use the TensorFlow/Keras framework to generate embedding layers, or use pretrained embeddings from TensorFlow Hub, with just a few lines of code
 
+
+
+## **Modeling**
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
