@@ -13,12 +13,11 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 ![sentiment](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/multi-classes_stats.png "multi-classes")
 
-## **Methodologies**
+## **NLP Preprocessing**
 
 ### **Natural Language Process (NLP): Text Preprocessing using TensorFlow/Keras**
 
-### Two important NLP preprocessing steps are conduced before training models:
-
+>#### Two important NLP preprocessing steps are conduced before training models:
 ----------
 ###  ---   **Tokenization:** Vectorize text, by turning each text into either a sequence of integers or into a vector.
 #### In this analysis, I set below parameter values:
@@ -28,7 +27,8 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 ----------
 ###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. 
-#### In this analysis, I either use the TensorFlow/Keras framework to generate embedding layers, or use pretrained embeddings from TensorFlow Hub, with just a few lines of code
+
+#### In this analysis, I used the TensorFlow/Keras framework to generate embedding layers, and also pretrained embeddings from TensorFlow Hub
 
 
 
@@ -54,7 +54,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 >>#### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
 
 
-## **Results Highlight**
+## **Highlight of results**
 
 #### here is an example of print out summary for model performance matrics
 
