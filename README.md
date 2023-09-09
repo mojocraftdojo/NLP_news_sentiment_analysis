@@ -1,19 +1,20 @@
 # **(NLP) Sentiment Analysis on Financial News Headlines**
 
 
-Project goal is to predict sentiments from financial news headlines from the perspective of a retail investor. 
+**This project's goal** is to predict sentiments from financial news headlines from the perspective of a retail investor. 
 
 The sentiments include "Positive"", "Negative" and Neutral ratings. 
 
+![sentiment](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/multi-classes_stats.png "multi-classes")
 
 
-## **Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach**
+## Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
-###  Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages
-###  Deep Learning: through **TensorFlow and Keras frameworks
+####  Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages
+####  Deep Learning: through **TensorFlow and Keras frameworks
 
 
-### More specifically, we're addressing the NLP problem by building the follow Text Classification models:
+More specifically, we're addressing the NLP problem by building the follow Text Classification models:
 
 >### **Classic Supervised learning models( Scikit-learn)**
 >> #### Model 0: Naive Bayes (baseline)
