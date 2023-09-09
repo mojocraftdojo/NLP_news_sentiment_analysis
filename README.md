@@ -32,7 +32,7 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 
 
-## **Modeling**
+## **Modeling to Predict Sentiment in the Financial News**
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
@@ -54,7 +54,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 >>#### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
 
 
-## **Highlight of results**
+## **Outcome Highlights**
 
 #### here is an example of print out summary for model performance matrics
 
