@@ -27,7 +27,8 @@ The dataset composed of 4846 pieces of news headlines that has been given three 
 >>Set the max number of words = 2 * average_text_length.
 
 ----------
-###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. In this analysis, I either leveraged TensorFlow/Keras framework to generate embedding layer, all utilized pretrained embeddings from TensorFlow Hub, all with just a few lines of code
+###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. 
+#### In this analysis, I either use the TensorFlow/Keras framework to generate embedding layers, or use pretrained embeddings from TensorFlow Hub, with just a few lines of code
 
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
