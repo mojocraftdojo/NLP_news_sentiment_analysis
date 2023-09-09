@@ -2,23 +2,38 @@
 
 ## **Objective**
 
-This analysis aims at predicting sentiments from financial news headlines from the perspective of a retail investor using deep learning and traditional supervised machine learning. 
+This analysis aims at predicting sentiments from financial news headlines from the perspective of retail investors using various deep learning NLP and traditional supervised machine learning modeling techniques. 
 
 
 ## **Dataset**
 
 The dataset composed of 4846 pieces of news headlines that has been given three sentiment ratings, which are "Positive"", "Negative" and "Neutral", see below break down:
 
-![news](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/news_samples_.png "news")
+![news](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/news_samples.png "news")
 
 ![sentiment](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/multi-classes_stats.png "multi-classes")
 
-## **Modeling methodologies**
+## **Methodologies for Modeling**
+
+### **Natural Language Process (NLP): Text Preprocessing using TensorFlow/Keras**
+
+### Two important NLP preprocessing steps are conduced before training models:
+
+----------
+###  ---   **Tokenization:** Vectorize text, by turning each text into either a sequence of integers or into a vector.
+#### In this analysis, I set below parameter values:
+>>Limit the data set to the top 10000 words.
+
+>>Set the max number of words = 2 * average_text_length.
+
+----------
+###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. In this analysis, I either leveraged TensorFlow/Keras framework to generate embedding layer, all utilized pretrained embeddings from TensorFlow Hub, all with just a few lines of code
+
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
-####  Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages
-####  Deep Learning: through **TensorFlow and Keras frameworks
+####  A) Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages
+####  B) Deep Learning: through **TensorFlow and Keras frameworks
 
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
