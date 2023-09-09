@@ -15,11 +15,11 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 ## **NLP Preprocessing**
 
-### **Natural Language Process (NLP): Text Preprocessing using TensorFlow/Keras**
+### **Natural Language Process (NLP): Text Preprocessing using TensorFlow / Keras**
 
 >#### Two important NLP preprocessing steps are conduced before training models:
 ----------
-###  ---   **Tokenization:** Vectorize text, by turning each text into either a sequence of integers or into a vector.
+###  ---   **Tokenization:** Vectorize text, by turning each text into either a vector (or a sequence of integers).
 #### In this analysis, I set below parameter values:
 >>Limit the data set to the top 10000 words.
 
@@ -28,7 +28,7 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 ----------
 ###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. 
 
-#### In this analysis, I used the TensorFlow/Keras framework to generate embedding layers, and also pretrained embeddings from TensorFlow Hub
+#### In this analysis, I used the TensorFlow/Keras framework to generate embedding layers, and also used pretrained embeddings from TensorFlow Hub
 
 
 
@@ -36,8 +36,8 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
-####  A) Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages
-####  B) Deep Learning: through **TensorFlow and Keras frameworks
+####  A) Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages**
+####  B) Deep Learning: through **TensorFlow and Keras** frameworks
 
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
@@ -61,11 +61,11 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 ![performance_metrics](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/performance_metrics.png "performance_metrics")
 
 #### When comparing different models, based on F1 score:
->#### -- Majority of the models can achieve a F1 score in 0.7 - 0.75 range on this small dataset (4000+ news) out of box -- which is not bad but can be bettter, either through supplying more training data or tuning some of the hyper parameters. 
->#### -- In this analysis, a few classic ML methods such as XGBoost, linear kernel SVC, random forest robustly perform equally well with the RNN-LSTM method. 
->#### -- Tensorflow Hub Pretrained USE model performs somewhat better than RNN-LSTM model here. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.
+> #### -- Majority of the models can achieve a F1 score in 0.7 - 0.75 range on this small dataset (4000+ news) out of box -- which is not bad but can be bettter, either through supplying more training data or tuning some of the hyper parameters. 
+> #### -- In this analysis, a few classic ML methods such as XGBoost, linear kernel SVC, random forest robustly perform equally well with the RNN-LSTM method. 
+> #### -- Tensorflow Hub Pretrained USE model performs somewhat better than RNN-LSTM model here. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.
 
->### **Top 3 models:** : F1 >= 0.72
+> ### **Top 3 models:** : F1 >= 0.72
 >> --- XGboost  (scikit-learn)
 
 >> --- SVC(linear kernel)      (scikit-learn)
@@ -73,14 +73,14 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 >> --- TF-Hub Pretrained USE (TensorFlow Hub)
 
 
->### **followed by**:  0.7 <= F1 < 0.72
+> ### **followed by**:  0.7 <= F1 < 0.72
 >> --- Random Forest (scikit-learn)
 
 >> --- LogisticRegression  (scikit-learn)
 
 >> --- RNN-LSTM  (TensorFlow/Keras)
 
->### **Significant lower performance**: F1 < 0.6
+> ### **Significant lower performance**: F1 < 0.6
 
 >> ---  Naive Bayes (scikit-learn)
 
