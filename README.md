@@ -1,6 +1,6 @@
 ## **Sentiment Analysis on Financial News Headlines(LLM/ML/DL NLP)**
 
-# **Objective**
+## **Objective**
 
 This analysis aims at predicting sentiments from financial news headlines using the latest large language models(transformers),  deep learning NLP and some traditional supervised machine learning modeling approaches. 
 
@@ -35,7 +35,7 @@ In this analysis, I set below parameter values:
 
 
 
-# **Modeling to Predict Sentiment in the Financial News**
+## **Modeling to Predict Sentiment in the Financial News**
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
@@ -72,7 +72,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 ![performance_metrics](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/performance_metrics.png "performance_metrics")
 
 
-# **Output Insights:**
+# **Insights:**
 
   Using the same dataset with sentiments associated to the news headlines (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
 
