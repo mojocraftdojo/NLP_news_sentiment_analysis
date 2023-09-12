@@ -46,21 +46,21 @@ In this analysis, I set below parameter values:
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
 
 
->### -- **Large Language Models (Transformers) (Hugging face)**
->>#### LLM model: Pre-trained transformers DistilBERT 
+> ### -- **Large Language Models (Transformers) (Hugging face)**
+>> #### LLM model: Pre-trained transformers DistilBERT 
 
 
->### -- **Classic Supervised learning models( Scikit-learn)**
->>#### Model 0: Naive Bayes 
->>#### Model 1: Random Forest
->>#### Model 2: XGBoost
->>#### Model 3: Support Vector Machine 
->>#### Model 4: Logistic Regression 
+> ### -- **Classic Supervised learning models( Scikit-learn)**
+>> ### Model 0: Naive Bayes 
+>> ### Model 1: Random Forest
+>> ### Model 2: XGBoost
+>> ### Model 3: Support Vector Machine 
+>> ### Model 4: Logistic Regression 
 
 
->### -- **Deep Learning with NLP text preprocessing (TensorFlow/Keras)**
->>#### Model 5: RNNs (LSTM)
->>#### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
+> ### -- **Deep Learning with NLP text preprocessing (TensorFlow/Keras)**
+>> ### Model 5: RNNs (LSTM)
+>> ### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
 
 
 
