@@ -1,4 +1,4 @@
-##**Sentiment Analysis on Financial News Headlines(LLM/ML/Deep Learning NLP)**
+## **Sentiment Analysis on Financial News Headlines(LLM/ML/Deep Learning NLP)**
 
 # **Objective**
 
