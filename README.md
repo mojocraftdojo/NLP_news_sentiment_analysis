@@ -80,7 +80,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 
 
-### **Top model:** : F1 > 0.8
+### **Top performance model:** : F1 > 0.8
 
   --- Pre-trained LLM: DistilBERT Transformers (Huggingface)
 
