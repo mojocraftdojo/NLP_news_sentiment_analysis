@@ -70,7 +70,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
   Using the same dataset of news headlines with sentiment labels (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
 
- -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **huggingface**. With a simple setup and a few epochs, it's the only model that achieved above F1 > 0.8,  which is **F1 = 0.84**.
+ -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **Huggingface**. With a simple setup and a few epochs, it's the only model that achieved F1-score above 0.8,  which is **F1 = 0.84**.
 
  -- Majority of the rest of models can achieve a F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
 
