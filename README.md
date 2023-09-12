@@ -80,7 +80,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 
 
-## **Top 1 model:** : F1 > 0.8
+### **Top model:** : F1 > 0.8
 
   --- Pre-trained LLM: DistilBERT Transformers (Huggingface)
 
@@ -105,6 +105,8 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
  ---  Naive Bayes (scikit-learn)
 
+
+## Plotting F1-score for prediction performance on validation set for all models
 
 ![comparison](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/Comparison_models.png "model-comparison")
 ![summary](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/val_summary.png "text-comparison")
