@@ -72,11 +72,11 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
  -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **Huggingface**. With a simple setup and a few epochs, it's the only model that achieved F1-score above 0.8,  which is **F1 = 0.84**.
 
- -- Majority of the rest of models can achieve a F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
+ -- The rest of the majority models can achieve F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
 
 -- In this analysis, a few classic ML methods such as **XGBoost, linear kernel SVC, random forest** robustly perform equally well with the  RNN-LSTM method.   
 
- -- **Tensorflow Hub Pretrained Universal Sentence Encoder** model performs somewhat better than **RNN-LSTM** model with the custom embeddings. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.However, its performance is lower than **Transformers**.
+ -- **Tensorflow Hub Pretrained Universal Sentence Encoder** model performs somewhat better than **RNN-LSTM** model with the custom embeddings. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.However, in the current analysis, its performance is roughly 15% lower than  **Transformers**.
 
 
 
@@ -107,6 +107,6 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 
 ![comparison](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/Comparison_models.png "model-comparison")
-![summary](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/val_summary_.png "text-comparison")
+![summary](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/val_summary.png "text-comparison")
 
 
