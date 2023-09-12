@@ -109,5 +109,6 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 
 ![comparison](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/Comparison_models.png "model-comparison")
+![summary](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/val_summary_.png "text-comparison")
 
 
