@@ -35,13 +35,7 @@ In this analysis, I set below parameter values:
 
 
 
-## **Modeling to Predict Sentiment in the Financial News**
-
-### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
-
-> ####  A) Multi-Labels classification ML models: through **scikit-learn** library and **NLP packages**
-> ####  B) Deep Learning: through **TensorFlow and Keras** frameworks
-
+## **Modeling to Predict Sentiments (Multi-Labels)**
 
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
