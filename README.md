@@ -42,8 +42,13 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
 
+
+>### **Large Language Models (Transformers) (Hugging face)**
+>>#### LLM model: Pre-trained transformers DistilBERT 
+
+
 >### **Classic Supervised learning models( Scikit-learn)**
->> #### Model 0: Naive Bayes (baseline)
+>> #### Model 0: Naive Bayes 
 >> #### Model 1: Random Forest
 >> #### Model 2: XGBoost
 >> #### Model 3: Support Vector Machine 
@@ -54,35 +59,51 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 >>#### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
 
 
+
 ## **Outcome Highlights**
 
 #### here is an example of print out summary for model performance matrics
 
 ![performance_metrics](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/performance_metrics.png "performance_metrics")
 
-#### When comparing different models, based on F1 score:
-> #### -- Majority of the models can achieve a F1 score in 0.7 - 0.75 range on this small dataset (4000+ news) out of box -- which is not bad but can be bettter, either through supplying more training data or tuning some of the hyper parameters. 
-> #### -- In this analysis, a few classic ML methods such as XGBoost, linear kernel SVC, random forest robustly perform equally well with the RNN-LSTM method. 
-> #### -- Tensorflow Hub Pretrained USE model performs somewhat better than RNN-LSTM model here. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.
+# **Insights:**
 
-> ### **Top 3 models:** : F1 >= 0.72
->> --- XGboost  (scikit-learn)
+### Using the same dataset with sentiments associated to the news headlines (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
 
->> --- SVC(linear kernel)      (scikit-learn)
+#### -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **huggingface**. With a simple setup and a few epochs, it's the only model that achieved above F1 > 0.8,  which is **F1 = 0.84**.
 
->> --- TF-Hub Pretrained USE (TensorFlow Hub)
+#### -- Majority of the rest of models can achieve a F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
+
+#### -- In this analysis, a few classic ML methods such as **XGBoost, linear kernel SVC, random forest** robustly perform equally well with the  RNN-LSTM method.   
+
+#### -- **Tensorflow Hub Pretrained Universal Sentence Encoder** model performs somewhat better than **RNN-LSTM** model with the custom embeddings. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.However, its performance is lower than **Transformers**.
 
 
-> ### **followed by**:  0.7 <= F1 < 0.72
->> --- Random Forest (scikit-learn)
 
->> --- LogisticRegression  (scikit-learn)
+## **Top 1 model:** : F1 > 0.8
 
->> --- RNN-LSTM  (TensorFlow/Keras)
+  --- Pre-trained LLM: DistilBERT Transformers (Huggingface)
 
-> ### **Significant lower performance**: F1 < 0.6
 
->> ---  Naive Bayes (scikit-learn)
+### **Followed by the three models:** : F1 > 0.72
+
+ --- XGboost  (scikit-learn)
+
+ --- SVC(linear kernel)      (scikit-learn)
+
+ --- TF-Hub Pretrained USE (TensorFlow Hub)
+
+
+### **and then followed by these models**:  0.7 < F1 <= 0.72
+ --- Random Forest (scikit-learn)
+
+ --- LogisticRegression  (scikit-learn)
+
+ --- RNN-LSTM  (TensorFlow/Keras)
+
+### **Significant lower performance**: F1 < 0.6
+
+ ---  Naive Bayes (scikit-learn)
 
 
 ![comparison](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/Comparison_models.png "model-comparison")
