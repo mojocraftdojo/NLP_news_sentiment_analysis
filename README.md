@@ -21,7 +21,9 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 >#### Two important NLP preprocessing steps are conduced before training models:
 ----------
 ###  ---   **Tokenization:** Vectorize text, by turning each text into either a vector (or a sequence of integers).
-#### In this analysis, I set below parameter values:
+
+In this analysis, I set below parameter values:
+
 >>Limit the data set to the top 10000 words.
 
 >>Set the max number of words = 2 * average_text_length.
@@ -29,11 +31,11 @@ The dataset is composed of 4846 pieces of news headlines that have been given th
 ----------
 ###  ---   **Embedding:** Transforms tokenized text into numbers so that Deep learning models can understand. 
 
-#### In this analysis, I used the TensorFlow/Keras framework to generate embedding layers, and also used pretrained embeddings from TensorFlow Hub
+ In this analysis, I used the TensorFlow/Keras framework to generate embedding layers, and also used pretrained embeddings from TensorFlow Hub
 
 
 
-## **Modeling to Predict Sentiment in the Financial News**
+# **Modeling to Predict Sentiment in the Financial News**
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
