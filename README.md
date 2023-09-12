@@ -1,9 +1,10 @@
 # **(NLP) Sentiment Analysis on Financial News Headlines**
 
-## **Objective**
+# **Objective**
 
-This analysis aims at predicting sentiments from financial news headlines from the perspective of retail investors using various deep learning NLP and traditional supervised machine learning modeling techniques. 
+#### This analysis aims at predicting sentiments from financial news headlines using the latest large language models(transformers),  deep learning NLP and some traditional supervised machine learning modeling approaches. 
 
+#### LLM performance will be compared side-by-side with all other models at the end of the analysis.
 
 ## **Dataset**
 
@@ -47,14 +48,15 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 >>#### LLM model: Pre-trained transformers DistilBERT 
 
 
->### **Classic Supervised learning models( Scikit-learn)**
->> #### Model 0: Naive Bayes 
->> #### Model 1: Random Forest
->> #### Model 2: XGBoost
->> #### Model 3: Support Vector Machine 
->> #### Model 4: Logistic Regression 
+>###**Classic Supervised learning models( Scikit-learn)**
+>>#### Model 0: Naive Bayes 
+>>#### Model 1: Random Forest
+>>#### Model 2: XGBoost
+>>#### Model 3: Support Vector Machine 
+>>#### Model 4: Logistic Regression 
 
->### **Deep Learning with NLP text preprocessing (TensorFlow/Keras)**
+
+>###**Deep Learning with NLP text preprocessing (TensorFlow/Keras)**
 >>#### Model 5: RNNs (LSTM)
 >>#### Model 6: TensorFlow Hub Pretrained Feature Extractor (Transfer Learning use USE)
 
