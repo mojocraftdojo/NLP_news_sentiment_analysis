@@ -2,9 +2,9 @@
 
 # **Objective**
 
-#### This analysis aims at predicting sentiments from financial news headlines using the latest large language models(transformers),  deep learning NLP and some traditional supervised machine learning modeling approaches. 
+This analysis aims at predicting sentiments from financial news headlines using the latest large language models(transformers),  deep learning NLP and some traditional supervised machine learning modeling approaches. 
 
-#### LLM performance will be compared side-by-side with all other models at the end of the analysis.
+The large language model (LLM) will be compared side-by-side with all other models for their performance at the end of the analysis.
 
 ## **Dataset**
 
