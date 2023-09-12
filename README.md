@@ -35,7 +35,7 @@ In this analysis, I set below parameter values:
 
 
 
-## **Modeling to Predict Sentiments (Multi-Labels)**
+## **Modeling to Predict News Headlines sentiments (Multi-Labels)**
 
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
