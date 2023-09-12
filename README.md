@@ -62,23 +62,24 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 
 
-## **Outcome Highlights**
+## **example performance metrics**
 
 #### here is an example of print out summary for model performance matrics
 
 ![performance_metrics](https://github.com/mojocraftdojo/NLP_news_sentiment_analysis/blob/main/performance_metrics.png "performance_metrics")
 
-# **Insights:**
 
-### Using the same dataset with sentiments associated to the news headlines (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
+# **Output Insights:**
 
-#### -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **huggingface**. With a simple setup and a few epochs, it's the only model that achieved above F1 > 0.8,  which is **F1 = 0.84**.
+  Using the same dataset with sentiments associated to the news headlines (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
 
-#### -- Majority of the rest of models can achieve a F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
+ -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **huggingface**. With a simple setup and a few epochs, it's the only model that achieved above F1 > 0.8,  which is **F1 = 0.84**.
 
-#### -- In this analysis, a few classic ML methods such as **XGBoost, linear kernel SVC, random forest** robustly perform equally well with the  RNN-LSTM method.   
+ -- Majority of the rest of models can achieve a F1 score in 0.7 - 0.75 range out -of-the-box -- which can be potentially improved by tuning some of the hyper parameters.
 
-#### -- **Tensorflow Hub Pretrained Universal Sentence Encoder** model performs somewhat better than **RNN-LSTM** model with the custom embeddings. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.However, its performance is lower than **Transformers**.
+-- In this analysis, a few classic ML methods such as **XGBoost, linear kernel SVC, random forest** robustly perform equally well with the  RNN-LSTM method.   
+
+ -- **Tensorflow Hub Pretrained Universal Sentence Encoder** model performs somewhat better than **RNN-LSTM** model with the custom embeddings. This is also in line with a seperate analysis I perfored with more complicated datasets, which indicates the pretrained model with sentence level embedding performs overall better than models with custom embedding at word level for this type of text classification.However, its performance is lower than **Transformers**.
 
 
 
