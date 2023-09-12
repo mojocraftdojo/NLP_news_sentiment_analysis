@@ -39,8 +39,9 @@ In this analysis, I set below parameter values:
 
 ### Compare Deep Learning vs Traditional Supervised Learning Machine Learning approach
 
-####  A) Multi-classes Classification ML models: through **scikit-learn** library and **NLP packages**
-####  B) Deep Learning: through **TensorFlow and Keras** frameworks
+> ####  A) Multi-Labels classification ML models: through **scikit-learn** library and **NLP packages**
+> ####  B) Deep Learning: through **TensorFlow and Keras** frameworks
+
 
 
 More specifically, we're addressing the NLP problem by building the follow Text Classification models:
