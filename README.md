@@ -68,7 +68,7 @@ More specifically, we're addressing the NLP problem by building the follow Text 
 
 # **Insights:**
 
-  Using the same dataset with sentiments associated to the news headlines (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
+  Using the same dataset of news headlines with sentiment labels (Multi-Labels: Positive/Negative/Neutral) (4000+ records), here is a side-by-side performance comparison of the below models based on F1 score :
 
  -- The obvious winner is the **pre-trained Transformers DistilBERT model** from **huggingface**. With a simple setup and a few epochs, it's the only model that achieved above F1 > 0.8,  which is **F1 = 0.84**.
 
